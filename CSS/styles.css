@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2? family= Lato:wght@400;700 & display=swap');
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    background-color: #fbfbfb;
+    color:#0f0f0f ;
+    min-height: 100vh;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    font-weight: 600;
+}
+.logo1 {
+    width: 40%;
+   display: flex;
+   align-items: center;
+   margin-right: 10px;
+   padding: 10px;
+}
+
+#menu {
+    display:flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin: 10px;
+   
+}
+.menu2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+  
+}
+
+section{
+    min-height: 100vh;
+}
+
+.img-principal {
+    display: flex;
+    justify-content:center;
+    width: 45%;
+    border-radius: 30%;
+    margin-top: 10%;
+    margin-left:20% ;
+}
+
+/* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none;
+}
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+}
+
+h1{
+    font-size: 36px;
+    margin-top: 5%;
+    padding: 5%;
+    margin-left: 5%;
+}
+
+h2 {
+   font-size: 28px; 
+   margin-left: 5%;
+}
+
+p {
+    display: flex;
+    text-align:center;
+    text-indent: 1.2%;
+    font-weight: 300;
+}
+
+.fondo1 p{
+    display: flex;
+    text-align: center;
+    padding: 10px 10px;
+    margin:5% 5%;
+}
+
+.fondo {
+    background-color:rgba(175, 89, 158, 0.3) ;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 600px;
+    margin:5% 5%;
+}
+
+.fondo h2{
+    margin-top: 5%;
+    padding: 5%;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
+
+.boton {
+    background-color:#af599e ;
+    margin: 5% 5%;
+    padding:5% 10%;
+    font-size: 20px;
+    color: #fbfbfb;
+    border-radius: 80px;
+}
+.boton :hover{
+    background-color: #fbfbfb;
+}
+
+.img-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-2 {
+    width: 40%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+footer {
+display: flex;
+justify-content: center;
+ height: 90px;
+ background-color: #af599e;
+ color: #fbfbfb;
+}
+.container{
+display: flex;
+justify-content:center;
+}
